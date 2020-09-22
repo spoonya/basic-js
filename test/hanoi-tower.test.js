@@ -14,7 +14,7 @@ describe('Hanoi tower', () => {
             expect(calculateHanoi).to.be.instanceOf(Function);
         });
     });
-    
+
     //Functional requirements
     describe('base requirements', () => {
         it.optional('returns correct answer', () => {
