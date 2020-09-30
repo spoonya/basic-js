@@ -3,7 +3,6 @@ const CustomError = require("../extensions/custom-error");
 module.exports = function repeater(str, options) {
   if (str === null) str = 'null';
 
-  console.log(options);
   let repeat;
   options.repeatTimes ? repeat = options.repeatTimes : repeat = 1;
 
